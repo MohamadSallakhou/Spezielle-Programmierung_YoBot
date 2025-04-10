@@ -5,6 +5,7 @@ on: [push]
 env:
   USER: "mohamadsallakhou"
 
+
 jobs:
   trivy_scan:
     runs-on: ubuntu-latest
