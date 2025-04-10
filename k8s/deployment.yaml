@@ -19,3 +19,5 @@ spec:
           command: ["/bin/bash", "-c", "while true; do sleep 3600; done"]
       imagePullSecrets:
         - name: ghcr-secret  # Das ImagePullSecret, das du vorher erstellt hast
+
+
