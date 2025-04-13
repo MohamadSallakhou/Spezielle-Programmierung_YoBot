@@ -8,7 +8,7 @@ spec:
     namespace: default
     server: https://kubernetes.default.svc
   source:
-    repoURL: 'https://github.com/MohamadSallakhou/Spezielle-Programmierung_YoBot.git'
+    repoURL: 'https://github.com/mohamadsallakhou/Spezielle-Programmierung_YoBot.git'
     targetRevision: HEAD
     path: 'k8s'
   project: default
