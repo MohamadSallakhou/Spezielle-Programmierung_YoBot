@@ -6,6 +6,8 @@ env:
   USER: "mohamadsallakhou"
 
 
+
+
 jobs:
   trivy_scan:
     runs-on: ubuntu-latest
@@ -14,6 +16,7 @@ jobs:
       # Checkout the code
       - name: Checkout code
         uses: actions/checkout@v2
+
 
       # Login to GitHub Container Registry
       - name: Login to GitHub Container Registry
