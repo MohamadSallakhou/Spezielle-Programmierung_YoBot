@@ -12,3 +12,4 @@ spec:
     targetRevision: HEAD
     path: 'k8s'
   project: default
+
