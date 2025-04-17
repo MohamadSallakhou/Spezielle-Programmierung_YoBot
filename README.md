@@ -10,6 +10,8 @@ Precondtion: Docker for Desktop and running k8s-Cluster (local)
 #### **1. ArgoCD deloyment and Connection**
 
 ```bash
+minikube start
+
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 
 kubectl port-forward svc/argocd-server -n argocd 8088:443

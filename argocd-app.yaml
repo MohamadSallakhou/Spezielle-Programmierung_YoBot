@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: yobot
+  name: spezielle-programmierung_yoBot
   namespace: argocd
 spec:
   destination:
